@@ -245,6 +245,7 @@ body {
 @media (max-width: 767px) {
 	#slide-1 {
 		background-image: none;
+		background-color: darkgray;
 	}
 }
 
@@ -511,7 +512,7 @@ body {
 	
 	#contact-row-4 .col-12 .hover-text {
 		display: none;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 #slide-7 {
