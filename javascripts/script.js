@@ -187,8 +187,17 @@ function enable_arrows( dataslide ) {
 *************/
 jQuery(document).ready(function ($) {
 	//Cache some variables
-	var links = $('.nav').find('li').not( "#resumeLink");
+	
+	var links = $('.nav').find('li').not(".projectPg");
+	console.log(links);
+	links = links.not("#resumeLink");
+		console.log(links);
+	links = links.not("#project_link");
+
+	//var links = $('.nav').find('li').not("#resumeLink");
+
 	// links.remove(#resumeLink);
+	console.log(links);
 	slide = $('.slide');
 	button = $('.button');
 	mywindow = $(window);
